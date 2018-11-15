@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-likes/dist/social-likes_classic.css">
+
+    <link rel="stylesheet" href="css/styletest.css">
+    <title>The Cavity on Avenue B</title>
+  </head>
+
+  <body>
+    
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info p-1">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-cookie-bite"></i></a>
+        
+        
+        <!--nav-toggler-->
+        <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button><!--nav-toggler-->
+        
+        <div class="collapse navbar-collapse justify-content-center text-dark" id="myNavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="location.html">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+
+                          
+        </div> <!-- #myNavbar -->
+        
+        <!--ShoppingCart Modal Button when Large -->
+        <div id="cart" class="mr-auto mb-auto d-none d-lg-block">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#cartModal">
+                <i class="fas fa-shopping-cart openCloseCart"></i> <span id="itemCount" class="badge badge-light text-info">0</span>
+            </button>
+        </div>
+
+        <!-- Navbar Needs work on collpasing -->
+        <!-- FIXED: by adding nesting both ULs inside the nav container -->
+    </div> <!--container -->
+    
+    <!--ShoppingCart Modal Button when less than Large -->
+    <div id="cartSm" class="mr-auto mb-auto d-lg-none">
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#cartModal">
+            <i class="fas fa-shopping-cart openCloseCart"></i> <span id="itemCountSm" class="badge badge-light text-info">0</span>
+        </button>
+    </div>
+ 
+</nav>
+
+    <section class="jumbotron jumbotron-fluid bg-dark text-light py-1.5">
+      <div class="container text-center">
+        <h1 class="display-3 text-center">The Cavity<br> on<br> Avenue B</h1>
+        <p class="purple text-center font-weight-bold">We're not just ANY cake shop run by hipsters out of Brooklyn. 
+We sell cookies too. And pies.<br> So why not pop in and try a treat? Or two?
+<br>(Seriously, please come. Our rent is crazy expensive.) </p>        </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row display-6">
+
+          <div class="col-md-6 col-lg-4 mb-md-4 text-center">
+
+            <img src="img/circlefood.jpeg" class="img-fluid rounded-circle mb-3 d-block mx-auto" alt="donut">
+
+            <p class="purple text-center font-weight-bold mb-2">Our Treats </p>
+            <p class="purple">Trust us, it's worth a trip to the dentist...</p>
+            <a href="menu.html" class="btn btn-info center-block px-5">Order Online</a>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-md-4 text-center">
+            <img src="img/circlevenue.jpeg" class="img-fluid rounded-circle mb-3 d-block mx-auto" alt="restaurant">
+
+            <p class="purple text-center font-weight-bold">Our Venue</p>
+            <p class="purple text-center">A Cavity could be just around the corner...</p>
+               <a href="location.html" class="btn btn-info px-5">Find Our Location</a>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-md-4 text-center">
+            <img src="img/circleabout.jpeg" class="img-fluid rounded-circle mb-3 d-block mx-auto" alt="halloween">
+
+            <p class="purple text-center font-weight-bold">Our Beginnings</p>
+            
+            <p class="purple text-center">It all began one fateful Halloween...</p>
+                <a href="aboutus.html" class="btn btn-info px-5">Read Our Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="carousel slide my-5" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3" class="active"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="img/carouseldonut_1200x480.jpeg" class="d-block w-100" alt="donut">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carouselcake_1200x480.jpeg" class="d-block w-100" alt="cake">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carouselcandy_1200x480.jpeg" class="d-block w-100" alt="candy">
+        </div>
+        <div class="carousel-item active">
+          <img src="img/carouselmacaroon_1200x480.jpeg" class="d-block w-100" alt="macaroon">
+        </div>
+    
+      </div>
+
+       <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </section> <!-- Carousel-->
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid">
+
+      <!-- Grid row -->
+      <div class="row text-center">
+
+       
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <a href="menu.html"><h5 class="text-uppercase">Menu</h5></a>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <a href="location.html"><h5 class="text-uppercase">Location</h5></a>
+
+          </div>
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+          <div class="col-md-4 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <a href="aboutus.html"><h5 class="text-uppercase">About Us</h5></a>
+
+          </div>
+          <!-- Grid column -->
+      </div>
+      
+     <div class="container-fluid text-center">
+     <h5 class="text-center magenta p-3">The Cavity on Avenue B - 125 Avenue B, Brooklyn, 11217</h1>
+           <div class="social-likes pb-3" data-counters="no" data-url="www.facebook.com" text-center>
+	<div class="facebook" title="Share link on Facebook">Facebook</div>
+	<div class="twitter" title="Share link on Twitter">Twitter</div>
+</div></div>
+  </div>
+</div>
+
+        </div>
+      <!-- Grid row -->
+
+    </div>
+    
+    
+  </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/social-likes/dist/social-likes.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

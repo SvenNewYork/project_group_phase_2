@@ -1,0 +1,101 @@
+.display-3 {
+    font-family: 'Bungee Shade', cursive;
+}
+.display-5 {
+    font-size: 30px;
+}
+
+.display-6 {
+    font-size: 25px;
+
+}
+
+.display-7 {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+
+}
+
+.display-8 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+.fontBungee{
+    font-family: 'Bungee Shade', cursive!important;
+}
+
+p {
+    font-size: 25px;
+}
+
+.jumbotron {
+background-image: url("../img/logoimgcrop.png");
+background-size: cover;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
+}
+h5 {
+    color: magenta;
+}
+.magenta {
+    color: magenta;
+}
+
+.purple {
+    color: purple;
+}
+footer {
+    background-color:cyan;
+}
+
+.navbar {
+    background-color: rgb(0,255,255)!important;
+   
+
+}
+.nav-link {
+    color: magenta!important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+/* CSS FOR MENU */
+    #cartSm{position:absolute; top:4px;right:4px;}
+    .bgCyan{background-color: rgb(0,255,255);border-color:  rgb(0,255,255);}
+    .addItem{background-color:rgb(202,31,123,.4);border: 0px;color:white!important;font-weight:bold;}
+    .addItem:hover{background-color:rgb(202,31,123,1);}
+    #cartItems h2,#cartItems .price{font-size:1rem;color:black!important;}
+    .price{font-size: 2rem;color:dimgray;}
+    .btn-clearcart{background-color:rgb(202,31,123);color:white;}
+    .btn-checkout{background-color:#17a2b8;color:white;}
+/* CSS FOR MENU */
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+color: magenta;
+}
+.nav-link {
+    color: magenta;
+    
+}
+
+.social-likes {
+    
