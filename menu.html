@@ -25,7 +25,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info p-1">
     <div class="container">
-        <a class="navbar-brand" href="index.html"><i class="fas fa-cookie-bite"></i></a>
+        <a class="navbar-brand" href="indextest.html"><i class="fas fa-cookie-bite"></i></a>
         
         
         <!--nav-toggler-->
@@ -245,9 +245,22 @@ We sell cookies too. And pies.<br> So why not pop in and try a treat? Or two?
                 </button>
             </div>
             <div id="shoppingCart" class="modal-body">
-                <div id="cartItemsContainer">                    
-                    <div id="cartItems"></div>
-                    <span id="cartTotal"></span>
+                <div id="cartItemsContainer" class="container"> 
+                    <table class="table table-borderless table-sm">
+                        <thead>
+                            <tr>
+                                <th scople="col"></th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col" class="text-right">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartItems" >
+                        
+                        </tbody>
+                    </table>
+                    <p id="cartTotal" class="text-right"></p>
                 </div>        
             </div>
             <div class="modal-footer">
